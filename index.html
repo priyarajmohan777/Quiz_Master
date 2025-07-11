@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>QuizMaster</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+ 
+  <h1>QuizMaster</h1>
+
+  <div class="quiz-card">
+  <p>Question 1: Who wrote "Hamlet"?</p>
+  <input type="text" id="q1">
+
+  <p>Question 2: What is the square root of 49?</p>
+  <input type="text" id="q2">
+
+  <p>Question 3: What does HTML stand for?</p>
+  <input type="text" id="q3">
+
+  <p>Question 4: What planet is known as the Red Planet?</p>
+  <input type="text" id="q4">
+
+  <p>Question 5: What is the traditional Japanese garment called?</p>
+  <input type="text" id="q5">
+</div>
+
+
+  <button onclick="calculateScore(strictScoring)">Check Score (Strict)</button>
+  <button onclick="calculateScore(lenientScoring)">Check Score (Lenient)</button>
+
+  <p id="finalScore"></p>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
